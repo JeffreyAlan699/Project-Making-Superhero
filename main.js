@@ -81,7 +81,6 @@ function my_keydown(e){
         document.getElementById("span_width").innerHTML = block_image_width;
     }
 }
-//function up is defined
 function up(){
     if(player_y > 0){
         player_y= player_y-block_image_height;
@@ -89,7 +88,6 @@ function up(){
         player_update();
     }
 }
-//function down is defined
 function down(){
     if(player_y <450){
         player_y = player_y+block_image_height;
@@ -97,7 +95,6 @@ function down(){
         player_update();
     }
 }
-//function left is defined
 function left(){
     if(player_x >=0){
         player_x = player_x-block_image_width;
@@ -105,7 +102,6 @@ function left(){
         player_update();
     }
 }
-//function right is defined
 function right(){
     if(player_x <850){
         player_x = player_x+block_image_width;
